@@ -7,8 +7,9 @@
 
 1.1类Setext格式  
 类 Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题），  
-例如:  
-    This is an H1
+例如:
+    
+    This is an H1   
     =============
 
     This is an H2
