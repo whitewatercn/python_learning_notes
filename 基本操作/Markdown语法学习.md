@@ -276,8 +276,22 @@ print('Hello World!')
 ```
 比如：   
 ```   
-[指向这篇文章的有道云笔记版本](http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)       
-(https://github.com)   
+1·戳一戳[这篇文章的有道云笔记版本](http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)    
+2·(https://github.com)   
 ```   
 1·戳一戳[这篇文章的有道云笔记版本](http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)    
-2·(https://github.com)  
+2·(https://github.com)   
+
+__高级链接__  
+链接链接也可以用变量来代替，文档末尾附带变量地址（本人暂时没发现这个功能有什么高级之处😶）   
+比如：
+```
+[github][1]   
+
+[1]:https://github.com   
+```
+表现为：   
+[github][1]   
+
+[1]:https://github.com 
+## 6.2链接网址Plus   小
