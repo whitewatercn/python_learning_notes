@@ -186,7 +186,7 @@ ___
     2. The second   
 
 # 4区块   
-## 4.1引用   
+## 4.1普普通通的引用   
 在段落开头使用 `>` 符号，后面+空格符号+内容   
 比如：
 ```
@@ -196,3 +196,90 @@ ___
 表现为：   
 >我是第一行引文   
 >俺是第二行   
+## 4.2嵌套引用   
+区块是可以嵌套的，一个`>` 符号是最外层，两个`>` 符号是第一层嵌套，以此类推： 
+比如：
+```
+>第一层   
+>>第二层   
+>>>第三层
+```   
+表现为：   
+>第一层   
+>>第二层   
+>>>第三层   
+## 4.3 引用里嵌套列表
+直接看栗子吧：   
+```   
+>1. first   
+>2. second  
+>+ emmmm   
+>- emmmmmmmm   
+>* emmmmmmmmmmmmmm
+```     
+表现为
+>1. first   
+>2. second  
+>+ emmmm   
+>- emmmmmmmm   
+>* emmmmmmmmmmmmmm   
+
+## 4.4列表里嵌套引用   
+要在列表项目内放进区块，那么就需要在`>`前添加四个空格的缩进（或者一个`Tab`）
+比如：  
+```   
+* emmm   
+1. First   
+    >1. First   
+    >2. Second   
+2. Second   
+* emmmm
+```   
+表现为   
+* emmm   
+1. First   
+    >1. First   
+    >2. Second   
+2. Second   
+* emmmm   
+
+
+# 5代码   
+## 5.1不需要分段的话   
+用反引号（`)把要表现成代码的内容包起来   
+比如：   
+```
+`print()    `   
+```
+
+表现为`print()`   
+## 5.2需要分段的话
+三个反引号开头，换行，输入内容，再换行，三个反引号结尾   
+PS:可以在开头的三个反引号后，指定代码语言（当然也可以不指定）
+比如：
+`````
+```python   
+print('Hello World!')     
+```   
+`````
+显示为    
+```python   
+print('Hello World!')     
+```     
+
+# 6链接   
+## 6.1链接网址   
+你可以写一段文字，然后点击文字跳转到链接，也可以直接把链接放那   
+```   
+[链接名称](链接地址)   
+<链接地址>
+```
+比如：   
+```   
+[指向这篇文章的有道云笔记版本]
+(文档：markdown学习笔记.md
+链接：http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)       
+(https://github.com)   
+```   
+1·戳一戳[这篇文章的有道云笔记版本](http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)    
+2·(https://github.com)  
