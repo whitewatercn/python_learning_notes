@@ -276,9 +276,7 @@ print('Hello World!')
 ```
 比如：   
 ```   
-[指向这篇文章的有道云笔记版本]
-(文档：markdown学习笔记.md
-链接：http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)       
+[指向这篇文章的有道云笔记版本](http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)       
 (https://github.com)   
 ```   
 1·戳一戳[这篇文章的有道云笔记版本](http://note.youdao.com/noteshare?id=7bae46bf94336f7fccd73b5ec7ebcfc7&sub=WEB99d2250600a52cf2f920c612a800b2af)    
