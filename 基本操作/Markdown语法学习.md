@@ -294,4 +294,19 @@ __高级链接__
 [github][1]   
 
 [1]:https://github.com 
-## 6.2链接网址Plus   小
+## 6.2链接图片    
+可以有以下三种方法   
+```   
+![](图片地址)
+![属性文本](图片地址)
+![属性文本](图片地址 "可选标题") 
+```   
+比如：   
+```
+![](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
+![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
+![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png "示例图片”)  
+```
+![](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
+![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
+![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png "示例图片”)
