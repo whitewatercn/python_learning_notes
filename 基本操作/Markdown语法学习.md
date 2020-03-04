@@ -305,8 +305,57 @@ __高级链接__
 ```
 ![](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
 ![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
-![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png "示例图片”)  
+![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png "test")  
 ```
 ![](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
-![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
-![示例图片](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png "示例图片”)
+![示例](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png)   
+![test1](https://raw.githubusercontent.com/whitewateroo/PicGo/master/default/2020.03.03.png "test2")    
+_有一说一_我觉得这仨都一样🤪
+![image](BF63AF157DB148349E15F9467735C5EE)   
+# 7表格   
+用`|`分割单元格，用`-`分割表头和其他行   
+比如：
+```
+|test1|test2|    
+|---|---|   
+|test3|test4|   
+|test5|test6|   
+|---|---|  
+```
+
+表示为   
+|test1|test2|    
+|---|---|   
+|test3|test4|   
+|test5|test6|   
+|---|---|   
+你还能设置表格内容的对齐方式   
+`-:`右对齐   
+`:-`左对齐   
+`:-:`居中对齐   
+比如：
+```   
+|test1|test2|test2.5|    
+|:----|----:|:-----:|   
+|test3|test4|test4.5|   
+|:-test5:|test6|test6.5|  
+```     
+表现为：
+|test1|test2|test2.5|    
+|:----|----:|:-----:|   
+|test3|test4|test4.5|   
+|test5|test6|test6.5|     
+# 8高级操作   
+## 8.1转义  
+markdown里使用了很多符号表实特定意思，要是想让这些符号显示，就得转义。在markdown里，我们用反斜杠转义这些特定符号，具体操作为：一个反斜杠后面跟一个特定符号   
+比如：  
+```
+**test**   
+\*\*test\*\*
+```
+表现为   
+**test**   
+\*\*test\*\*    
+
+## 8.2其他  
+诸如HTML、公式，我本人暂时用不到，所以没学。需要的话请回到最上面，看看我所参考的网站   
