@@ -84,5 +84,35 @@ True
 >>> 'red' not in colors 
 False 
 ```   
-### 5.2.8布尔表达式     
-还是条件表达式
+### 5.2.8布尔表达式？     
+还是条件表达式   
+## 5.3if语句  
+### 5.3.1简单的if语句  
+```
+if conditional_test:
+    do something   
+```  
+比如 
+```   
+age = 19  
+if age >=18:  
+    print("your are old enough to vote!")   
+```  
+### 5.3.2有点难度的if-else语句  
+```   
+age = 17 
+if age >=18:
+    print("you are old enough to vote!")
+else:  
+    print("sorry, you are too young to vote")  
+```  
+### 5.3.3更难的if-elif-else语句  
+```  
+age = 12  
+if age < 4:  
+    print("free")
+elif age > 18:  
+    print("10 dollers")  
+else:  
+    print("5 dollers")
+    
